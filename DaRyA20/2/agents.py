@@ -158,3 +158,15 @@ if __name__ == '__main__':
     agents.append(remetente_agent)
 
     start_loop(agents)
+
+
+# output example
+# [seller] 23/12/2020 13:16:56.186 --> Would you like to buy this for 300
+# [buyer] 23/12/2020 13:16:56.191 --> My proposal is 150.0
+# [seller] 23/12/2020 13:16:56.195 --> My proposal is 225.0
+# [buyer] 23/12/2020 13:16:56.200 --> My proposal is 187.5
+# [seller] 23/12/2020 13:16:56.204 --> My proposal is 206.25
+# [buyer] 23/12/2020 13:16:56.206 --> My proposal is 196.875
+# [seller] 23/12/2020 13:16:56.209 --> My proposal is 201.5625
+# [buyer] 23/12/2020 13:16:56.212 --> My last proposal is 200
+# [seller] 23/12/2020 13:16:56.214 --> I am agree on this 200
